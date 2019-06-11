@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- head -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>FOBIYA API CRYPTO</title>
+    <meta name="description" content="FOBIYA API CRYPTO" />
+	<meta name="keywords" content="FOBIYA API CRYPTO" />
+	
+    <link rel="stylesheet" href="./css/fonts.css">
+<link href="css/style.min.css" rel="stylesheet"></head>
+<!-- END head -->
+<!-- body in images design data-img="1.png" -->
+
+<body data-img="./img/1.png">
+    <!-- header here -->
+    
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col m12 s12 l8 xl18">
+                  
+                  <div class="logo">
+                     <span>logo</span>
+                  </div>
+
+                    <h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <span>.</span></h1>
+
+                    <div class="prise__slider">
+                       
+                        <div class="">
+                            <span class="dash-usd">ETH/USD</span>
+                            <ul class="box__api">
+                                <li>
+                                    <span>Price Ethereum</span>
+                                    <p class="price"><b id="ETHPR"></b>
+                                    <span class="ETHPRCHANGEDAY red"></span>
+                                    <span class="ETHPRLASTVOLUME"></span></p>
+                                </li>
+                                <li>
+                                     <span>Buy</span>
+                                    <p class="ETHbuy"></p>
+                                </li>
+                                <li>
+                                    <span>Sell</span>
+                                    <p class="ETHsell"></p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="">
+                        
+                         <span class="dash-usd">LTC/USD</span>
+                            <ul class="box__api">
+                                <li>
+                                    <span>Price Litecoin</span>
+                                    <p class="price"><b id="LTCPR"></b><span class="LTCPRCHANGEDAY red"></span>
+                                    <span class="LTCPRLASTVOLUME"></span></p>
+                                </li>
+                                <li>
+                                     <span>Buy</span>
+                                    <p class="LTCbuy"></p>
+                                </li>
+                                <li>
+                                    <span>Sell</span>
+                                    <p class="LTCsell"></p>
+                                </li>
+                            </ul>                        
+                        </div>
+                        <div class="">
+                           
+                         <span class="dash-usd">BTC/USD</span>
+                            <ul class="box__api">
+                                <li>
+                                    <span>Price Bitcoin</span>
+                                    <p class="price"><b id="BTCPR"></b><span class="BTCPRCHANGEDAY red"></span>
+                                    <span class="BTCPRLASTVOLUME"></span></p>
+                                </li>
+                                <li>
+                                     <span>Buy</span>
+                                    <p class="BTCbuy"></p>
+                                </li>
+                                <li>
+                                    <span>Sell</span>
+                                    <p class="BTCsell"></p>
+                                </li>
+                            </ul>  
+                            
+                        </div>
+                        <div class="">
+                          
+                          
+                          
+                          
+                          
+                           
+                         <span class="dash-usd">BCH/USD</span>
+                            <ul class="box__api">
+                                <li>
+                                    <span>Price Bitcoin Cash</span>
+                                    <p class="price"><b id="BCHPR"></b><span class="BCHPRCHANGEDAY red"></span>
+                                    <span class="BCHPRLASTVOLUME"></span></p>
+                                </li>
+                                <li>
+                                     <span>Buy</span>
+                                    <p class="BCHbuy"></p>
+                                </li>
+                                <li>
+                                    <span>Sell</span>
+                                    <p class="BCHsell"></p>
+                                </li>
+                            </ul>  
+                            
+                        </div>
+                        <div class="">
+                           
+                         <span class="dash-usd">DASH/USD</span>
+                            <ul class="box__api">
+                                <li>
+                                    <span>Price Dash</span>
+                                    <p class="price"><b id="DASHPR"></b><span class="DASHPRCHANGEDAY red"></span>
+                                    <span class="DASHPRLASTVOLUME"></span></p>
+                                </li>
+                                <li>
+                                     <span>Buy</span>
+                                    <p class="DASHbuy"></p>
+                                </li>
+                                <li>
+                                    <span>Sell</span>
+                                    <p class="DASHsell"></p>
+                                </li>
+                            </ul>  
+                            
+                        </div>
+                        <div class="">
+
+                         <span class="dash-usd">XRP/USD</span>
+                            <ul class="box__api">
+                                <li>
+                                    <span>Price Ripple</span>
+                                    <p class="price"><b id="XRPPR"></b><span class="XRPPRCHANGEDAY red"></span>
+                                    <span class="XRPPRLASTVOLUME"></span></p>
+                                </li>
+                                <li>
+                                     <span>Buy</span>
+                                    <p class="XRPbuy"></p>
+                                </li>
+                                <li>
+                                    <span>Sell</span>
+                                    <p class="XRPsell"></p>
+                                </li>
+                            </ul>  
+                            
+                        </div>
+
+ 
+                    </div>
+    
+                </div>
+                   
+               <div class="col m12 s12 l12 xl12">
+                 
+                    <div class="box__form"> 
+                    
+                      <div  class="logo form__log">
+                         <span>logo</span>
+                      </div>
+                      
+                   <form  method="POST" action="javascript:void(null);">
+
+                      <input class="names" type="text"  name="name" required=""  placeholder="Enter Your Name" />
+
+                      <input class="mail" type="tel" name="email" required="" value="" placeholder="Enter  Your Phone" />
+
+                     <input class="mail" type="email" name="email" required="" value="" placeholder="Enter Your E-mail" />
+                     
+                     <label>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In quidem illo cumque.</label>
+
+                    <button type="submit" class="blue" name="send">Register Now</button>
+                
+                </form>
+     
+                    </div>
+
+                </div>
+                    
+               <div class="col m12 s12 l8 xl9">      
+                    <div class="slider__header">
+                        <div class="box__slid">
+                            <h3>Lorem ipsum dolor.</h3>
+                            <hr>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste, ipsum.</p>
+                        </div>
+                        <div class="box__slid">
+                            <h3>Lorem ipsum dolor.</h3>
+                            <hr>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste, ipsum.</p>
+                        </div>
+                        <div class="box__slid">
+                            <h3>Lorem ipsum dolor.</h3>
+                            <hr>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste, ipsum.</p>
+                        </div>
+                        <div class="box__slid">
+                            <h3>Lorem ipsum dolor.</h3>
+                            <hr>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste, ipsum.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- END header here -->
+    <!-- section__1 -->
+    <section class="section__1">
+        <div class="container">
+            <div class="row">
+                <div class="col m12 s12 l12 xl4">
+                 
+                <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta, at!</h2>
+                
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt eum, harum, distinctio voluptatum nulla officia rem possimus magnam necessitatibus est aperiam enim pariatur ipsum repudiandae cum amet, sint id! Aperiam asperiores eum repellendus voluptatibus atque?</p>
+                
+                <a href="#" class="blue">Register Now</a>
+                
+                
+
+                </div>
+                <div class="col m12 s12 l12 xl3">
+
+                <div class="slider__svg">
+                  
+                   <div class="">
+                 <ul class="list">
+                    <li data-cripto="USD" data-namecripta="XRP">
+                       <div class="col m5 s5 l5 xl5">
+                       <p>Lorem ipsum.</p>
+                       </div>
+                        <div class="col m7 s7 l7 xl7">
+                        <span>XRP/USD</span>
+                        <p class="list__price XRPUSD"></p>
+                       </div>  
+                    </li>
+                    <li data-cripto="EUR" data-namecripta="XRP">
+                       <div class="col m5 s5 l5 xl5">
+                    <p>Lorem ipsum.</p>
+                       </div>
+                        <div class="col m7 s7 l7 xl7">
+                        <span>XRP/EUR</span>
+                        <p class="list__price XRPEUR"></p>
+                       </div>    
+                    </li>
+                    <li data-cripto="GBP" data-namecripta="XRP">
+                       <div class="col m5 s5 l5 xl5">
+                      <p>Lorem ipsum.</p>
+                       </div>
+                        <div class="col m7 s7 l7 xl7">
+                        <span>XRP/GBP</span>
+                        <p class="list__price XRPGBP"></p>
+                       </div>  
+                    </li>
+                    <li data-cripto="JPY" data-namecripta="XRP">
+                       <div class="col m5 s5 l5 xl5">
+                   <p>Lorem ipsum.</p>
+                       </div>
+                        <div class="col m7 s7 l7 xl7">
+                        <span>XRP/JPY</span>
+                        <p class="list__price XRPJPY"></p>
+                       </div>   
+                    </li>
+                    <li data-cripto="RUB" data-namecripta="XRP">
+                       <div class="col m5 s5 l5 xl5">
+                <p>Lorem ipsum.</p>
+                       </div>
+                        <div class="col m7 s7 l7 xl7">
+                        <span>XRP/RUB</span>
+                        <p class="list__price XRPRUB"></p>
+                       </div>  
+                    </li>
+                    <li data-cripto="AED" data-namecripta="XRP">
+                       <div class="col m5 s5 l5 xl5">
+                  <p>Lorem ipsum.</p>
+                       </div>
+                        <div class="col m7 s7 l7 xl7">
+                        <span>XRP/AED</span>
+                        <p class="list__price XRPAED"></p>
+                       </div>  
+                    </li>
+                </ul>                      
+                   </div>
+                  
+                   <div class="">
+                <ul class="list">
+                    <li data-cripto="USD" data-namecripta="BTC">
+                       <div class="col m5 s5 l5 xl5">
+                    <p>Lorem ipsum.</p>
+                       </div>
+                        <div class="col m7 s7 l7 xl7">
+                        <span>BTC/USD</span>
+                        <p class="list__price BTCUSD"></p>
+                       </div>  
+                    </li>
+                    <li data-cripto="EUR" data-namecripta="BTC">
+                       <div class="col m5 s5 l5 xl5">
+                  <p>Lorem ipsum.</p>
+                       </div>
+                        <div class="col m7 s7 l7 xl7">
+                        <span>BTC/EUR</span>
+                        <p class="list__price BTCEUR"></p>
+                       </div>    
+                    </li>
+                    <li data-cripto="GBP" data-namecripta="BTC">
+                       <div class="col m5 s5 l5 xl5">
+                    <p>Lorem ipsum.</p>
+                       </div>
+                        <div class="col m7 s7 l7 xl7">
+                        <span>BTC/GBP</span>
+                        <p class="list__price BTCGBP"></p>
+                       </div>  
+                    </li>
+                    <li data-cripto="JPY" data-namecripta="BTC">
+                       <div class="col m5 s5 l5 xl5">
+                    <p>Lorem ipsum.</p>
+                       </div>
+                        <div class="col m7 s7 l7 xl7">
+                        <span>BTC/JPY</span>
+                        <p class="list__price BTCJPY"></p>
+                       </div>   
+                    </li>
+                    <li data-cripto="RUB" data-namecripta="BTC">
+                       <div class="col m5 s5 l5 xl5">
+                  <p>Lorem ipsum.</p>
+                       </div>
+                        <div class="col m7 s7 l7 xl7">
+                        <span>BTC/RUB</span>
+                        <p class="list__price BTCRUB"></p>
+                       </div>  
+                    </li>
+                    <li data-cripto="AED" data-namecripta="BTC">
+                       <div class="col m5 s5 l5 xl5">
+                  <p>Lorem ipsum.</p>
+                       </div>
+                        <div class="col m7 s7 l7 xl7">
+                        <span>BTC/AED</span>
+                        <p class="list__price BTCAED"></p>
+                       </div>  
+                    </li>
+                </ul> 
+                   </div>
+
+                   <div class="">
+                 <ul class="list">
+                    <li data-cripto="USD" data-namecripta="ETH">
+                       <div class="col m5 s5 l5 xl5">
+                  <p>Lorem ipsum.</p>
+                       </div>
+                        <div class="col m7 s7 l7 xl7">
+                        <span>ETH/USD</span>
+                        <p class="list__price ETHUSD"></p>
+                       </div>  
+                    </li>
+                    <li data-cripto="EUR" data-namecripta="ETH">
+                       <div class="col m5 s5 l5 xl5">
+                <p>Lorem ipsum.</p>
+                       </div>
+                        <div class="col m7 s7 l7 xl7">
+                        <span>ETH/EUR</span>
+                        <p class="list__price ETHEUR"></p>
+                       </div>    
+                    </li>
+                    <li data-cripto="GBP" data-namecripta="ETH">
+                       <div class="col m5 s5 l5 xl5">
+                 <p>Lorem ipsum.</p>
+                       </div>
+                        <div class="col m7 s7 l7 xl7">
+                        <span>ETH/GBP</span>
+                        <p class="list__price ETHGBP"></p>
+                       </div>  
+                    </li>
+                    <li data-cripto="JPY" data-namecripta="ETH">
+                       <div class="col m5 s5 l5 xl5">
+             <p>Lorem ipsum.</p>
+                       </div>
+                        <div class="col m7 s7 l7 xl7">
+                        <span>ETH/JPY</span>
+                        <p class="list__price ETHJPY"></p>
+                       </div>   
+                    </li>
+                    <li data-cripto="RUB" data-namecripta="ETH">
+                       <div class="col m5 s5 l5 xl5">
+              <p>Lorem ipsum.</p>
+                       </div>
+                        <div class="col m7 s7 l7 xl7">
+                        <span>ETH/RUB</span>
+                        <p class="list__price ETHRUB"></p>
+                       </div>  
+                    </li>
+                    <li data-cripto="AED" data-namecripta="ETH">
+                       <div class="col m5 s5 l5 xl5">
+                   <p>Lorem ipsum.</p>
+                       </div>
+                        <div class="col m7 s7 l7 xl7">
+                        <span>ETH/AED</span>
+                        <p class="list__price ETHAED"></p>
+                       </div>  
+                    </li>
+                </ul>                      
+                   </div>
+                   <div class="">
+                 <ul class="list">
+                    <li data-cripto="USD" data-namecripta="LTC">
+                       <div class="col m5 s5 l5 xl5">
+                       <p>Lorem ipsum.</p>
+                       </div>
+                        <div class="col m7 s7 l7 xl7">
+                        <span>LTC/USD</span>
+                        <p class="list__price LTCUSD"></p>
+                       </div>  
+                    </li>
+                    <li data-cripto="EUR" data-namecripta="LTC">
+                       <div class="col m5 s5 l5 xl5">
+                     <p>Lorem ipsum.</p>
+                       </div>
+                        <div class="col m7 s7 l7 xl7">
+                        <span>LTC/EUR</span>
+                        <p class="list__price LTCEUR"></p>
+                       </div>    
+                    </li>
+                    <li data-cripto="GBP" data-namecripta="LTC">
+                       <div class="col m5 s5 l5 xl5">
+                       <p>Lorem ipsum.</p>
+                       </div>
+                        <div class="col m7 s7 l7 xl7">
+                        <span>LTC/GBP</span>
+                        <p class="list__price LTCGBP"></p>
+                       </div>  
+                    </li>
+                    <li data-cripto="JPY" data-namecripta="LTC">
+                       <div class="col m5 s5 l5 xl5">
+                    <p>Lorem ipsum.</p>
+                       </div>
+                        <div class="col m7 s7 l7 xl7">
+                        <span>LTC/JPY</span>
+                        <p class="list__price LTCJPY"></p>
+                       </div>   
+                    </li>
+                    <li data-cripto="RUB" data-namecripta="LTC">
+                       <div class="col m5 s5 l5 xl5">
+                     <p>Lorem ipsum.</p>
+                       </div>
+                        <div class="col m7 s7 l7 xl7">
+                        <span>LTC/RUB</span>
+                        <p class="list__price LTCRUB"></p>
+                       </div>  
+                    </li>
+                    <li data-cripto="AED" data-namecripta="LTC">
+                       <div class="col m5 s5 l5 xl5">
+                   <p>Lorem ipsum.</p>
+                       </div>
+                        <div class="col m7 s7 l7 xl7">
+                        <span>LTC/AED</span>
+                        <p class="list__price LTCAED"></p>
+                       </div>  
+                    </li>
+                </ul>  
+                   </div>
+                   <div class="">
+                 <ul class="list">
+                    <li data-cripto="USD" data-namecripta="BCH">
+                       <div class="col m5 s5 l5 xl5">
+                       <p>Lorem ipsum.</p>
+                       </div>
+                        <div class="col m7 s7 l7 xl7">
+                        <span>BCH/USD</span>
+                        <p class="list__price BCHUSD"></p>
+                       </div>  
+                    </li>
+                    <li data-cripto="EUR" data-namecripta="BCH">
+                       <div class="col m5 s5 l5 xl5">
+                     <p>Lorem ipsum.</p>
+                       </div>
+                        <div class="col m7 s7 l7 xl7">
+                        <span>BCH/EUR</span>
+                        <p class="list__price BCHEUR"></p>
+                       </div>    
+                    </li>
+                    <li data-cripto="GBP" data-namecripta="BCH">
+                       <div class="col m5 s5 l5 xl5">
+                       <p>Lorem ipsum.</p>
+                       </div>
+                        <div class="col m7 s7 l7 xl7">
+                        <span>BCH/GBP</span>
+                        <p class="list__price BCHGBP"></p>
+                       </div>  
+                    </li>
+                    <li data-cripto="JPY" data-namecripta="BCH">
+                       <div class="col m5 s5 l5 xl5">
+                    <p>Lorem ipsum.</p>
+                       </div>
+                        <div class="col m7 s7 l7 xl7">
+                        <span>BCH/JPY</span>
+                        <p class="list__price BCHJPY"></p>
+                       </div>   
+                    </li>
+                    <li data-cripto="RUB" data-namecripta="BCH">
+                       <div class="col m5 s5 l5 xl5">
+                     <p>Lorem ipsum.</p>
+                       </div>
+                        <div class="col m7 s7 l7 xl7">
+                        <span>BCH/RUB</span>
+                        <p class="list__price BCHRUB"></p>
+                       </div>  
+                    </li>
+                    <li data-cripto="AED" data-namecripta="BCH">
+                       <div class="col m5 s5 l5 xl5">
+                   <p>Lorem ipsum.</p>
+                       </div>
+                        <div class="col m7 s7 l7 xl7">
+                        <span>BCH/AED</span>
+                        <p class="list__price BCHAED"></p>
+                       </div>  
+                    </li>
+                </ul>  
+                   </div>
+                   <div class="">
+                 <ul class="list">
+                    <li data-cripto="USD" data-namecripta="DASH">
+                       <div class="col m5 s5 l5 xl5">
+                       <p>Lorem ipsum.</p>
+                       </div>
+                        <div class="col m7 s7 l7 xl7">
+                        <span>DASH/USD</span>
+                        <p class="list__price DASHUSD"></p>
+                       </div>  
+                    </li>
+                    <li data-cripto="EUR" data-namecripta="DASH">
+                       <div class="col m5 s5 l5 xl5">
+                     <p>Lorem ipsum.</p>
+                       </div>
+                        <div class="col m7 s7 l7 xl7">
+                        <span>DASH/EUR</span>
+                        <p class="list__price DASHEUR"></p>
+                       </div>    
+                    </li>
+                    <li data-cripto="GBP" data-namecripta="DASH">
+                       <div class="col m5 s5 l5 xl5">
+                       <p>Lorem ipsum.</p>
+                       </div>
+                        <div class="col m7 s7 l7 xl7">
+                        <span>DASH/GBP</span>
+                        <p class="list__price DASHGBP"></p>
+                       </div>  
+                    </li>
+                    <li data-cripto="JPY" data-namecripta="DASH">
+                       <div class="col m5 s5 l5 xl5">
+                    <p>Lorem ipsum.</p>
+                       </div>
+                        <div class="col m7 s7 l7 xl7">
+                        <span>DASH/JPY</span>
+                        <p class="list__price DASHJPY"></p>
+                       </div>   
+                    </li>
+                    <li data-cripto="RUB" data-namecripta="DASH">
+                       <div class="col m5 s5 l5 xl5">
+                     <p>Lorem ipsum.</p>
+                       </div>
+                        <div class="col m7 s7 l7 xl7">
+                        <span>DASH/RUB</span>
+                        <p class="list__price DASHRUB"></p>
+                       </div>  
+                    </li>
+                    <li data-cripto="AED" data-namecripta="DASH">
+                       <div class="col m5 s5 l5 xl5">
+                   <p>Lorem ipsum.</p>
+                       </div>
+                        <div class="col m7 s7 l7 xl7">
+                        <span>DASH/AED</span>
+                        <p class="list__price DASHAED"></p>
+                       </div>  
+                    </li>
+                </ul>  
+                   </div>
+                    
+                    
+                    
+                    
+                    
+                </div>
+
+                </div>
+    
+                  <div class="col m12 s12 l12 xl4">
+                        
+                    <div class="bac"> 
+                        
+                           <canvas id="chart"></canvas>
+                     
+                    </div>
+
+                </div>              
+              
+            </div>
+        </div>
+    </section>
+    <!-- END section__1 -->
+    <!-- footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col m12 s12 l12 xl12">
+                   
+                    
+                    
+                      <div class="logo">
+                         <span>logo</span>
+                      </div>
+                    
+                      <ul class=link>
+                        <li>
+                            <a href=#>
+                                    <i class="ion-social-facebook"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href=#>
+                               <i class="ion-social-instagram"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href=#>
+                                <i class="ion-social-linkedin"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href=#>
+                               <i class="ion-social-twitter"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href=#>
+                              <i class="ion-social-youtube"></i>
+                            </a>
+                        </li>
+                    </ul>
+
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium totam necessitatibus hic harum fugiat voluptates, saepe nesciunt eveniet dolor, illo quaerat molestias mollitia ab reiciendis facilis deserunt quam nihil? Reprehenderit vero dolor ratione amet veritatis nulla non quasi, veniam maiores natus dignissimos beatae qui. Rerum harum, illo id.</p>
+                    
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium totam necessitatibus hic harum fugiat voluptates, saepe nesciunt eveniet dolor, illo quaerat molestias mollitia ab reiciendis facilis deserunt quam nihil? Reprehenderit vero dolor ratione amet veritatis nulla non quasi, veniam maiores natus dignissimos beatae qui. Rerum harum, illo id.</p>
+                    
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium totam necessitatibus hic harum fugiat voluptates, saepe nesciunt eveniet dolor, illo quaerat molestias mollitia ab reiciendis facilis deserunt quam nihil? Reprehenderit vero dolor ratione amet veritatis nulla non quasi, veniam maiores natus dignissimos beatae qui. Rerum harum, illo id.</p>
+                    
+                    <p class=copy>© Copyright All Rights Reserved.</p>
+                    
+                    <ul class=poly>
+                        <li><a href=#>Privacy Policy</a>
+                        </li>
+                        <li><a href=#>Cookie Policy</a>
+                        </li>
+                        <li><a href=#>Terms and Conditions</a>
+                        </li>
+                    </ul>
+                    
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- END footer -->
+<script type="text/javascript" src="js/main.min.js"></script></body>
+
+</html>
